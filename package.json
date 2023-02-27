@@ -1,0 +1,24 @@
+{
+  "name": "mpatemplatevanilla",
+  "version": "1.0.0",
+  "description": "Multi page application template in vanilla js via typescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && sass ./src/style/scss/supplemental.scss ./public/style/supplemental.css && tailwindcss build -i ./src/style/tailwind.css -o ./public/style/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremiah-carlson/MpaTemplateVanilla.git"
+  },
+  "author": "Jeremiah Carlson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremiah-carlson/MpaTemplateVanilla/issues"
+  },
+  "homepage": "https://github.com/jeremiah-carlson/MpaTemplateVanilla#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7",
+    "typescript": "^4.9.5"
+  }
+}
